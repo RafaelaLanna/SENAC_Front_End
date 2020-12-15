@@ -1,0 +1,53 @@
+<<!DOCTYPE html>
+    <html lang='pt-br'>
+
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>Exercicio 2</title>
+    </head>
+
+    <body style='font-family:Arial;background-color:rgb(57, 126, 230) ;color:white'>
+
+        <h1 style="font-size:20">
+            Cadastro de estudantes
+        </h1>
+        <form style="color:white">
+            <fieldset>
+                <legend>
+                    <b> Dados escolares</b>
+                </legend>
+                <label for="Estudante">Estudante :</label>
+                <select id="Estudante" name="Estudante">
+                  <option value="op1">1º ano</option>
+                  <option value="op2">2º ano</option>
+                  <option value="op3">3º ano</option>
+              </select> <br>
+                <input type="checkbox" id="mat_por" name="mat_por">
+                <label for="mat_por">Portugues</label><br>
+                <input type="checkbox" id="mat_mat" name="mat_mat">
+                <label for="mat_mat">Matemática</label><br>
+                <label for="prof"> Escolha um Professor :</label>
+                <select id="prof" name="prof">
+                    <option value="p1" >Juliana Martins</option>
+                    <option value="p2">Cláudia</option>
+                    <option value="p3">Gabriel</option>
+                    <option value="p4">Márcio</option>
+                    <option value="p5">Vicente</option>
+                    <option value="p6">André</option>
+                    
+                </select>
+
+            </fieldset>
+            <fieldset>
+                <legend>Descrição</legend>
+                <textarea id="txt" name="txt" rows="6" cols="50"></textarea>
+            </fieldset><br>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar" width="102px">
+            <br>
+            <a href="../index.html">Home</a>
+        </form>
+    </body>
+
+    </html>
